@@ -188,7 +188,7 @@ body {
     margin-top: 200px;
     margin-bottom: 70px;
     position: relative;
-
+    z-index: 1;
 }
 
 .cards-title {
