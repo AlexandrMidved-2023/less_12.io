@@ -36,8 +36,10 @@ body {
 
 /* ---------------------- */
 .header {
+    margin-bottom: 70px;
     padding: 13px 0;
     position: fixed;
+    top: 0;
     width: 100%;
     background: #ffffff;
     z-index: 2;
@@ -185,10 +187,9 @@ body {
 
 /* ------------------------ */
 .cards {
-    margin-top: 200px;
-    margin-bottom: 70px;
-    position: relative;
+    position: sticky;
     z-index: 1;
+    top: 200px;
 }
 
 .cards-title {
@@ -203,7 +204,7 @@ body {
     content: '';
     position: absolute;
     top: 4%;
-    left: 0;
+    left: 18.5%;
     display: block;
     width: 100px;
     height: 8px;
